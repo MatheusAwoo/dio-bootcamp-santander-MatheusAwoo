@@ -21,6 +21,7 @@ item 2
 2. Item 2
 <li> listar os itens
 <link> rel="stylesheet" serve para adicionar um arquivo no arquivo html, stylesheet serve para indentificar o tipo de arquivo, href="arquivo.arquivo" serve para direcionar o arquivo.
+
 IMPORTANTE: No html precisamos chamar funções dentro das tags <a href...</a> ERRADO: <a> href...</a>
 IMPORTANTE: Para identificarmos tanto em html quanto em css, funções dentro das tags utilizamos # para ID e . para class
 
@@ -28,13 +29,85 @@ CSS
 Depois de classificarmos o conteudo das tags principais com texto no hmtl, no css temos que indentificalas como:
 #tagprincipal, .tagsecundaria, .tagterciaria...{
 }
+
 Para invocarmos uma das tags basta apenas informar o nome em conjunto com {}
 .tagsecundaria{}
+
 color: muda a cor da fonte
 font-size: muda o tamanho da fonte
-font-style: muda o tipo da fonte
+font-style: muda o estilo da fonte; italico, normal...
 Assim como em outras linguagens de programação, na parte de css usamos ; para darmos fim as funções
+
 background: muda a cor de fundo
 padding: espaçamento entre o conteúdo e a borda
-border solid: espaçamento da borda
-magin: espaçamento entre elementos
+border: espaçamento da borda
+margin: espaçamento entre elementos
+
+Podemos dimensionar especificando o tamanho das bordas com padding e margin utilizando as seguintes formas:
+.class{
+   padding: 10px 5px 5px 0px; sendo a ordem: top right bottom left
+ou:
+padding-top: px;
+padding-right: px;
+padding-bottom: px;
+padding-left: px;
+
+Podemos especificar também diversas formas do background como:
+.class{
+background-color: green; cor do background
+background-image: url("whatever.png); imagem do background
+background-position: top; posição do background
+}
+
+Podemos escolher o tamanhom=, estilo e cor da linha da border
+Estilos: solid: linha sólida, dotted: linha pontilhada, dashed: linha tracejada.
+Exemplos:
+.class{
+   border: 3px solid blue;
+   border-top: 2px dotted green;
+   border-right: 4px dashed pink;
+} 
+ou:
+.class{
+   border-width: 3px;
+   border-color: grey;
+   border-style: solid;
+}
+em lados especificos:
+.class{
+   border-top-width: 3px
+   border-top-color: green;
+   border-top-style: dotted;
+}
+
+border-radius: serve para arredondar a borda. Utilizamos porcentagem.
+Podemos também decicidir qual parte da borda deverá ser arredondada:
+border-top-left-radius
+
+font-family: troca o tipo da fonte
+font-weight: deixa a cor da fonte mais FORTE ou LEVE.
+
+text-transform: pode ser usado em conjunto com uppercase(trasnforma todos em letras maisculas), lowercase(transforma todos em letras minusculas) e capitalize(formata apenas a primeira letra em upper)
+text-decoration: pode ser usado em conjunto com underline(sublinha as letras em baixo), overline(sublinha acima da letra) e line-through(sublinha a letra em si)
+
+Podemos mudar a aparencia das listas
+ul {
+   list-style-type: square;
+}
+
+ol {
+   list-style-type: upper-roman;
+}
+
+ul {
+   list-style-type: "\1f44d";
+}
+
+ul {
+   list-style-type: url("blabla.jpg");
+}
+
+Podemos alinhar e dimensionar nossas bordas, textos etc:
+Width
+Height
+Text align: alinha textos
