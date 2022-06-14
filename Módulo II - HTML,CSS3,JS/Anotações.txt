@@ -1,0 +1,40 @@
+HTML
+<!DOCTYPE html> informa o tipo de arquivo
+<hmtl> a tag principal que engloba todas as outras
+<head> tag da parte superior da página utilizada com a tag <title>
+<meta charset = ""> define o tipo de caracter a ser usado
+<body> usada para definir o corpo do código em html
+<header> serve para definir titulos na página
+<h1> até <h6> pode serem usadas para titulos, subtitulos, quanto maior for o número em conjunto com h menor será a letra.
+<section> serve para dividir seções na sua página
+<p> "Conteúdo do artigo" </p>
+<a href="linkdosite">Texto</a>
+<a href="linkdosite">target="_blank">texto</a> abre o site em uma nova aba
+<img> tag de imagem.
+<img src="img/whatever.jpg", "whatever.jpg", "http...whatever.jpg"> caminho da imagem
+<img alt="Foto"> mostra a descrição da foto 
+<ul> lista
+item 1 
+item 2 
+<ol> lista com ordem 
+1. Item 1
+2. Item 2
+<li> listar os itens
+<link> rel="stylesheet" serve para adicionar um arquivo no arquivo html, stylesheet serve para indentificar o tipo de arquivo, href="arquivo.arquivo" serve para direcionar o arquivo.
+IMPORTANTE: No html precisamos chamar funções dentro das tags <a href...</a> ERRADO: <a> href...</a>
+IMPORTANTE: Para identificarmos tanto em html quanto em css, funções dentro das tags utilizamos # para ID e . para class
+
+CSS
+Depois de classificarmos o conteudo das tags principais com texto no hmtl, no css temos que indentificalas como:
+#tagprincipal, .tagsecundaria, .tagterciaria...{
+}
+Para invocarmos uma das tags basta apenas informar o nome em conjunto com {}
+.tagsecundaria{}
+color: muda a cor da fonte
+font-size: muda o tamanho da fonte
+font-style: muda o tipo da fonte
+Assim como em outras linguagens de programação, na parte de css usamos ; para darmos fim as funções
+background: muda a cor de fundo
+padding: espaçamento entre o conteúdo e a borda
+border solid: espaçamento da borda
+magin: espaçamento entre elementos
