@@ -17,7 +17,6 @@ max-height: define a altura máxima da classe.
 
 min-widht: define a largura mínima e obrigatória da classe.
 
- 
-
+ flex flow é um atalho para as propiedades do flex-direction e do do flex-wrap 
 
  
