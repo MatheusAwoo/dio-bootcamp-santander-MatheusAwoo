@@ -1,0 +1,23 @@
+Flex-wrap: define se há ou não necessidade de os itens quebrar linha. Por padrão no container, os itens acabam saindo do limite.
+
+nowrap: não permite a quebra de linha.
+
+wrap: permite que a quebra de linha ocorra, inserindo o iten flex na próxima linha.
+
+wrap-reverse: permite a quebra de linha, porém na direção oposta(cima).
+
+para adicionarmos mais valores de classes em um só item, basta apenas digitarmos a segunda classe logo em seguida da classse anterior:
+<div class="bubulanches orange"
+
+line-height: define a posição dos itens na linha baseando-se na altura
+
+max-width: define a largura máxima da classe.
+
+max-height: define a altura máxima da classe.
+
+min-widht: define a largura mínima e obrigatória da classe.
+
+ 
+
+
+ 
