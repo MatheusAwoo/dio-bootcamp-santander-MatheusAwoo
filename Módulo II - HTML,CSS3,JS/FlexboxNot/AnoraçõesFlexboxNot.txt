@@ -22,11 +22,24 @@ flex flow é um atalho para as propiedades do flex-direction e do do flex-wrap
 podemo utilizar o flex-flow com a função de "row reverse nowrap" para invertemos a ordem dos itens com o nowrap	
 
 Justify content: alinha os itens do container, também trata a distribuição dos espaços dos mesmos.
-
-flex-start: inicio do container 
-
-flex-end: fim do container
  
-center: ao centro do container
-
 space-between: cria um espaçamento igual entre os elementos.
+
+space-around cria um espaçamento 
+
+Align-items:
+
+Alinha o conteúdo do flex container de acordo com o eixo do mesmo.
+
+O alinhamento é diferente quando se trata de colunas ou linhas.
+
+Permite o alinhmento central no eixo vertical.
+
+Tipos de alinhamento:
+
+center: alinhamento dos itens ao centro.
+stretch: padrão e faz com que os itens crescam igualmente. 
+flex-start: alinhamento no inicio do container. 
+flex-end: alinhamento no fim do container.
+baseline: alinhamento de acordo com a linha base da tipografia de itens.
+
