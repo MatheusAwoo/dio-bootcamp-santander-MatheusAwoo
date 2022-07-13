@@ -25,17 +25,14 @@ Justify content: alinha os itens do container, também trata a distribuição do
  
 space-between: cria um espaçamento igual entre os elementos.
 
-space-around cria um espaçamento 
+space-around: cria um espaçamento maior no meio baseando-se no espaçamento inicial e final.
 
 Align-items:
-
 Alinha o conteúdo do flex container de acordo com o eixo do mesmo.
-
 O alinhamento é diferente quando se trata de colunas ou linhas.
-
 Permite o alinhmento central no eixo vertical.
 
-Tipos de alinhamento:
+Tipos de alinhamento(items):
 
 center: alinhamento dos itens ao centro.
 stretch: padrão e faz com que os itens crescam igualmente. 
@@ -43,3 +40,38 @@ flex-start: alinhamento no inicio do container.
 flex-end: alinhamento no fim do container.
 baseline: alinhamento de acordo com a linha base da tipografia de itens.
 
+Align content:
+Alinha o contéudo do container em relação ao eixo vertical, para isso o container precisa utilizar a quebra de linha
+e a altura do container precisa ser maior que a soma de linhas dos itens.
+
+Tipos de alinhamento(content):
+
+center: alinhamento dos itens ao centro.
+stretch: padrão e faz com que os itens crescam igualmente. 
+flex-start: alinhamento no inicio do container. 
+flex-end: alinhamento no fim do container.
+space-between: alinhamento dos espaços entre os elementos.
+space-around: cria um espaçamento maior no meio baseando-se no espaçamento inicial e final.
+
+Flex grow: define a proporção dos crescimentos dos itens, respeitando seu conteúdo interno.
+
+O flex grow não funciona caso já tenhamos utilizado o justify-content.
+
+flex-basis: propiedade que estabelece o tamanho dos itens e sua capacidade usando como base o conteúdo interno e valores
+definidos.
+
+tipos de valores em questão de tamanho com flex-basis:
+
+auto: valor padrão é proporcional ao conteúdo do item, o mesmo adapta-se á quantidade de conteúdo do item.
+px, %, em... valores exatos previamente definidos, só altera o tamanho quando a quantidade de conteúdo no item ultrapassa
+a quantidade aceitavel pelo valor definido.	
+0(zero) terá relação com a definição do flex-grow
+
+flex-shrink: estabelece a capacidade de redução ou compressão de um item.
+
+	
+
+
+	
+
+ 

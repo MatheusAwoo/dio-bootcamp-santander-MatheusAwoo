@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex basis</title>
+    <style>
+        .container{
+            display: flex;
+            border: 2px solid black;
+            max-width: 300px;
+
+        }
+
+        .item{
+            background-color: darkslategray;
+            color: white;
+            text-align: center;
+            margin: 5px;
+        }
+
+        .bauto{
+            flex-basis:auto
+
+        }
+
+        .fg1{
+            flex-grow: 1;
+        }
+
+        .bws100{
+            flex-basis: 100px;
+
+        }
+    </style>
+</head>
+<body>
+    <p>Auto</p>
+    <section>
+    <div class="container">
+        <div class="item bauto fg1">AAAAAAA</div>
+        <div class="item bauto fg1">B</div>
+        <div class="item bauto fg1">C</div>
+    </div>
+    </section>
+    
+    <p>Pre-Defined</p>
+    <section>
+        <div class="container">
+            <div class="item bws100 fg1">AAAAAAA</div>
+            <div class="item bws100 fg1">BBBBBBBBBB</div>
+            <div class="item bws100 fg1 ">C</div>
+        </div>
+        </section>
+</body>
+</html>
