@@ -69,9 +69,23 @@ a quantidade aceitavel pelo valor definido.
 
 flex-shrink: estabelece a capacidade de redução ou compressão de um item.
 
+flex é um atalho ou abreviação de escrita para as propiedades grow, shrink e basis.
+
+Ou seja, a função flex de valor um consequentemente possui grow=1, shrink=1 e basis=0
+	
+Order: ordena os itens por ordem.
+
+Align-self: faz o alinhamento individual dos items.
+seus valores são:
+
+auto: Valor padrão. Caso o align dos items seja feito no container, o self-auto irá respeitar o valor passado pelo container,
+e automaticamente se adaptará para o mesmo. 
+flex-start: inicio do container
+flex-end: final do container 
+center: ao centro de acordo com o eixo
+stretch: ocupa todo o espaço relativo
+baseline: utiliza a linha base da tipografia
 	
 
-
-	
 
  

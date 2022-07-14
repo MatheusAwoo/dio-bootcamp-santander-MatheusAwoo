@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align-self</title>
+<style>
+    .container{
+        display: flex;
+        max-width: 300px;
+        margin-bottom: 10px;
+        border: 2px solid black;
+    }
+
+    .align-container{
+        align-items: center;
+    }
+
+    .item{
+        color: white;
+        background-color: crimson;
+        margin: 5px;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .center{
+        align-self: center;
+    }
+
+    .auto{
+        align-self: auto;
+    }
+
+    .start{
+        align-self: flex-start;
+    }
+
+    .end{
+        align-self: flex-end;
+    }
+
+    .baseline{
+        align-self: baseline;
+    }
+
+    .strech{
+        align-self: stretch;
+    }
+
+</style>
+</head>
+<body>
+    <p>None</p>
+    <section class="container">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt enim</div>
+        <div class="item">4</div>
+    </section>
+
+
+    <p>Center</p>
+    <section class="container">
+        <div class="item center">1</div>
+        <div class="item center">2</div>
+        <div class="item center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt enim</div>
+        <div class="item center">4</div>
+    </section>
+
+    <p>Auto</p>
+    <section class="container">
+        <div class="item auto">1</div>
+        <div class="item auto">2</div>
+        <div class="item auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt enim</div>
+        <div class="item auto">4</div>
+    </section>
+
+    <p>Auto if align is defined by the container</p>
+    <section class="container align-container">
+        <div class="item auto">1</div>
+        <div class="item auto">2</div>
+        <div class="item auto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt enim</div>
+        <div class="item auto">4</div>
+    </section>
+
+    <p>Start</p>
+    <section class="container">
+        <div class="item start">1</div>
+        <div class="item start">2</div>
+        <div class="item start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt enim</div>
+        <div class="item start">4</div>
+    </section>
+
+    <p>End</p>
+    <section class="container">
+        <div class="item end">1</div>
+        <div class="item end">2</div>
+        <div class="item end">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt enim</div>
+        <div class="item end">4</div>
+    </section>
+
+    <p>Stretch</p>
+    <section class="container">
+        <div class="item strech">1</div>
+        <div class="item strech">2</div>
+        <div class="item strech">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt enim</div>
+        <div class="item strech">4</div>
+    </section>
+
+    <p>Baseline</p>
+    <section class="container">
+        <div class="item baseline">1</div>
+        <div class="item baseline">2</div>
+        <div class="item baseline">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt enim</div>
+        <div class="item baseline">4</div>
+    </section>
+
+</body>
+</html>

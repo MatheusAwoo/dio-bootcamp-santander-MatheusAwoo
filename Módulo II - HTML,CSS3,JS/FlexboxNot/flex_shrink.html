@@ -32,6 +32,16 @@
             flex-shrink: 0;
             flex-basis: 100px;
         }
+
+        .s-2{
+            flex-shrink: 2;
+            flex-basis: 100px;
+        }
+
+        .s-3{
+            flex-shrink: 3;
+        }
+
     </style>
 
 </head>
@@ -59,12 +69,23 @@
     </section>
 
     <section>
+        <p>flex-shrink 0 100px </p>
         <div class="container">
         <div class="item s-0 fg1">A</div>
         <div class="item s-0 fg1">Lorem ipsum dolor sit amet</div>
         <div class="item s-0 fg1">C</div>
         <div class="item s-0 fg1">D</div>
         <div class="item s-0 fg1">E</div>
+        </div>
+    </section>    
+
+    <section>
+        <p>flex-shrink mix/100px </p>
+        <div class="container">
+        <div class="item s-3 fg1">A</div>
+        <div class="item s-2 fg1">Lorem ipsum dolor sit amet</div>
+        <div class="item s-2 fg1">C</div>
+        <div class="item s-2 fg1">D</div>
         </div>
     </section>    
 
