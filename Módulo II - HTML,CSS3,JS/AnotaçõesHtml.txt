@@ -112,6 +112,10 @@ Width
 Height
 Text align: alinha textos
 
+
+Fazendo o estilo da página pelo css podemos invocar diretamente a tag em que queremos personalizar.
+
+
     © 2022 GitHub, Inc.
 
     Terms
